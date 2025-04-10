@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jimoh Umar Ololade | Web Developer</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <nav>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <header>
+      <h1>Jimoh Umar Ololade</h1>
+      <p>Web Developer | HCI Enthusiast | Techpreneur</p>
+      <a href="resume.pdf" class="resume-button" download>Download Resume</a>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m a web developer driven by a passion for creating responsive,
+        accessible, and human-centered digital products. With a background in
+        Human-Computer Interaction and full-stack development (MERN), I aim to
+        build human-centered websites. My current skillsets are HTML , CSS and JavaScript: <b><a href="#projects">Click to see my skills in action</a></b>
+      </p>
+
+      <img
+        style="height: 150px; margin-top: 3%; "
+        src="html,css and js.png"
+      />
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>MSc in Computer and Information Science</li>
+        <li>PGd in Software Engineering</li>
+      </ul>
+    </section>
+
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>
+          <div class="cert-item">
+            <a
+              href="https://www.freecodecamp.org/certification/JimohUmar/responsive-web-design"
+            >
+              <img
+                src="Freecodecamp.jpg"
+                alt="FreeCodeCamp Responsive Web Design"
+              />
+            </a>
+            <span>FreeCodeCamp Responsive Web Design</span>
+          </div>
+        </li>
+        <li>
+          <div class="cert-item">
+            <a
+              href="https://drive.google.com/file/d/1y1xD99CYl1Pgf89BSCuYbd-sCpL_OAYt/view?usp=sharing"
+            >
+              <img
+                src="DevCareer.jpg"
+                alt="Alt_School DevCareer Frontend Development"
+              />
+            </a>
+            <span>Alt_School DevCareer Frontend Development</span>
+          </div>
+        </li>
+        <li>
+          <div class="cert-item">
+            <a
+              href="https://drive.google.com/file/d/1FsPMF3Q8kEwBnCvFwWYxF4i9P3h3soT8/view?usp=sharing"
+            >
+              <img
+                src="Aptlearn.jpg"
+                alt="Aptlearn Certification in Technical Writing"
+              />
+            </a>
+            <span>Aptlearn Certification in Technical Writing</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-gallery">  
+         <a href="https://jimohumar.github.io/Petiteheera.github.io"><img src="Adedoja.jpg" alt="Adedoja"/></a>
+         <a href=""><img src="Barbershop.jpg" alt="Barbershop"/></a>
+        <a href=""><img src="Jiggy.jpg" alt="Jiggy's Stores"/></a>
+        <a href=""><img src="myPortfolio.jpg" alt="portfolio"/></a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea
+          name="message"
+          rows="5"
+          placeholder="Your Message"
+          required
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p style="margin-top: 1rem">Or reach out via:</p>
+      <p>
+        Email:
+        <a href="mailto:umar1jimoh@gmail.com">umar1jimoh@gmail.com</a>
+      </p>
+      <p>
+        LinkedIn:
+        <a href="https://linkedin.com/in/jimohumar"
+          >linkedin.com/in/jimohumar</a
+        >
+      </p>
+      <p>
+        GitHub: <a href="https://github.com/jimohumar">github.com/jimohumar</a>
+      </p>
+      <p>
+        X: <a href="https://x.com/_developersdev?s=21">_DevelopersDev</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Jimoh Umar Ololade. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document
+        .getElementById("hamburger")
+        .addEventListener("click", function () {
+          document.getElementById("navLinks").classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>
